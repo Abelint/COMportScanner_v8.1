@@ -1,0 +1,13 @@
+﻿<Window x:Class="COMportScanner_v8._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COMportScanner_v8._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Сканировать COM порты" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="10" Click="ScanComPorts_Click"/>
+        <ListBox x:Name="ComPortsList" HorizontalAlignment="Left" Height="100" VerticalAlignment="Bottom" Width="260" Margin="10" MouseDoubleClick="ComPortsList_MouseDoubleClick"/>
+    </Grid>
+</Window>
